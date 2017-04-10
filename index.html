@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Yizhen Zhu</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/ScrollMagic.js"></script>
+    <script src="js/debug.addIndicators.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/TimelineMax.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/animation.gsap.js"></script>
+    <script src="js/clipboard.min.js"></script>
+</head>
+<body onload="loadIndex()">
+<div id="sidenav">
+    <button class="copy-btn tooltip" data-clipboard-text="yizhen.eu@gmail.com" >copy
+        <span class="tooltiptext">Copied!</span>
+    </button>
+    <script>
+        var btn = document.getElementsByClassName('copy-btn')
+        var clipboard = new Clipboard(btn);
+    </script>
+    <div id="sidenav-container">
+        <h1 class="white" id="my-name">YIZHEN<br/>ZHU</h1>
+        <h3 id="portfolio">UI Design Portfolio</h3>
+        <h3 class="white" id="contact">Contact</h3>
+        <p id="phone">+31 641855979</p>
+        <p id="mail">yizhen.eu@gmail.com
+        </p>
+        <div id="social-icon-bar">
+            <a class="social-icon" id="linkedin" href="http://linkedin.com/in/yizhen-zhu" target="_blank"></a>
+            <a class="social-icon" id="dribbble" href="https://dribbble.com/yizhen" target="_blank"></a>
+            <a class="social-icon" id="instagram" href="https://www.instagram.com/yizhen_n/" target="_blank"></a>
+        </div>
+    </div>
+    </div>
+</div>
+<div id="container" data-animsition-overlay="true">
+    <span id="toggle-bar">
+         <svg class="navicon">
+             <path id="path-left" d="M22 16 L 22 34"></path>
+             <path id="path-right" d="M30 20 L 30 38"></path>
+         </svg>
+        <img src="img/ic-logo-white.svg" id="logo">
+    </span>
+
+    <div class="card-panel"></div>
+
+    <a class="col-2 card-hidden" id="uv-card" href="proj-uvisio.html">
+        <h1>UVISIO</h1>
+        <h4 class="year">2017</h4>
+        <p class="card-intro"> Every 6 people in the Netherlands might develop skin cancer.
+        UVISIO provides people with affordable sun protection service based on personal skin type, their
+        sunscreen and real-time uv data through device.</p>
+        <button class="card-btn btn-text" id="uv-btn"><p>MORE</p></button>
+    </a>
+
+    <a class="col-2 card-hidden" id="todo-card" href="proj-cando.html">
+        <h1>CANDO</h1>
+        <h4 class="year">2017</h4>
+        <p class="card-intro">Desktop todo list for a light and focused working flow. CareerFoundry Student Project.<br/></p>
+        <button class="card-btn btn-text" id="todo-btn">
+            <p>MORE</p></button>
+    </a>
+
+    <a class="col-2 card-hidden" id="dmf-card" href="proj-dmf.html">
+        <h1>DMF</h1>
+        <h4 class="year">2017</h4>
+        <p class="card-intro">Desktop web page redesign for Design Museum Foundation (DMF), which holds a good variety of events all across the United States.<br/></p>
+        <button class="card-btn btn-text" id="dmf-btn">
+            <p>MORE</p></button>
+    </a>
+
+    <div class="panel" id="uv-slide" >
+        <div style="background-image: url(img/h-uvisio.jpg);"></div>
+    </div>
+    <div class="panel" id="todo-slide">
+        <div style="background-image: url(img/h-todo.jpg);"></div>
+    </div>
+    <div class="panel" id="dmf-slide">
+        <div style="background-image: url(img/h-dmf.jpg);"></div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Yizhen Zhu</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ScrollMagic.js"></script>
+    <script src="js/debug.addIndicators.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/TimelineMax.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/animation.gsap.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+</head>
+<body onload="loadProject()">
+<span id="toggle-bar-uvisio" class="toggle-bar-proj">
+        <a href="index.html" class="home-btn proj-btn">
+            <img class="home-btn-icon" src="img/ic-home.svg">
+        </a>
+        <a href="proj-cando.html" class="proj-last-btn proj-btn">
+            <img class="proj-last-icon" src="img/ic-previous.svg">
+            <h4 class="vertical-tx vertical-tx-top">CANDO</h4>
+        </a>
+        <a href="proj-uvisio.html" class="proj-next-btn proj-btn">
+            <img class="proj-next-icon" src="img/ic-next.svg">
+            <h4 class="vertical-tx vertical-tx-down vertical-tx-down-dmf">UVISIO</h4>
+        </a>
+        <div id="top-btn" class="proj-btn">
+            <img id="top-icon" src="img/ic-to-top.svg">
+        </div>
+    </span>
+<div class="container-proj" id="container-dmf">
+
+    <section id="header" class="flexbox">
+        <h1>DFM</h1>
+        <h4 class="year">2017</h4>
+        <p class="header-tx">UI Design<br/><br/>Desktop web page redesign for
+            <a href="http://designmuseumfoundation.org/" target="_blank">Design Museum Foundation</a>, which holds
+            a good variety of events all across the United States.
+            <br/><br/><br/><br/>
+            CareerFoundry Student Project
+        </p>
+    </section>
+    <section class="header-image header-dmf flexbox"></section>
+    <section class="dmf-screens flexbox">
+        <div id="dm-1">
+            <img src="img/dm-home.png" style="width:784px;">
+            <h1>IDENTITY</h1>
+            <p>‘Turn entire cities into museums.’ DMF is a dynamic, enthusiastic and effective in organizing all design realated events.
+                Their logo itself really expresses this spirit by
+                gathering the dots together.  So I decide to emphasize this logo and use orange as the primary color.</p>
+        </div>
+        <div class="dm-2">
+            <img src="img/dm-event.png" style="width:886px;">
+            <h1>EVENTS</h1>
+            <p>Side filter bar helps user to choose from numerous categories.</p>
+            <h1 id="dm-2-3">TICKET</h1>
+            <p id="dm-2-4">Each event includes a ticket panel on the top to invite user join and share this event.</p>
+        </div>
+        <div class="dm-3">
+            <img src="img/dm-join.png" style="width:792px;">
+            <h1>JOIN</h1>
+            <p>Make different support programss visible for audience.</p>
+            <h1 id="dm-3-3">DONATE</h1>
+            <p id="dm-3-4">Make benefits clear and indicate gratefulness by a heart icon.</p>
+        </div>
+        <div id="dm-4">
+            <img src="img/dm-blog.png" style="width:512px;">
+            <h1>BLOG</h1>
+            <p>Direct blog content to related events to turn user’s interest into join motivations.
+                Social media share are also more visible to increase chance of social impact.</p>
+        </div>
+    </section>
+    </div>
+</body>
+</html>

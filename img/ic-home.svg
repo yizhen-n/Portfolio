@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6">
+        <g id="project" transform="translate(-21.000000, -377.000000)" fill="#FF3500">
+            <path d="M32.8300283,381.690909 C32.9433442,381.763636 33,381.884848 33,382.054545 L33,390.527273 C33,390.842426 32.8526919,391 32.5580737,391 L29.2946176,391 C29.0226607,391 28.8866856,390.842426 28.8866856,390.527273 L28.8866856,385.327273 L25.1133144,385.327273 L25.1133144,390.527273 C25.1133144,390.842426 24.9773393,391 24.7053824,391 L21.4419263,391 C21.1473073,391 21,390.842426 21,390.527273 L21,382.054545 C21,381.884848 21.0566567,381.763636 21.1699717,381.690909 L26.6430595,377 C26.8243641,376.854545 27.0056643,376.854545 27.1869688,377 L32.8300283,381.690909 Z" id="ic-home"></path>
+        </g>
+    </g>
+</svg>
