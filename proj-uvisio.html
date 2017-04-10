@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Yizhen Zhu</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ScrollMagic.js"></script>
+    <script src="js/debug.addIndicators.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/TimelineMax.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/animation.gsap.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+</head>
+<body onload="loadProject()">
+    <span id="toggle-bar-uvisio" class="toggle-bar-proj">
+        <a href="index.html" class="home-btn proj-btn">
+            <img class="home-btn-icon" src="img/ic-home.svg">
+        </a>
+        <a href="proj-dmf.html" class="proj-last-btn proj-btn">
+            <img class="proj-last-icon" src="img/ic-previous.svg">
+            <h4 class="vertical-tx vertical-tx-top">MDF REDESGIN</h4>
+        </a>
+        <a href="proj-cando.html" class="proj-next-btn proj-btn">
+            <img class="proj-next-icon" src="img/ic-next.svg">
+            <h4 class="vertical-tx vertical-tx-down">CANDO</h4>
+        </a>
+        <div id="top-btn" class="proj-btn">
+            <img id="top-icon" src="img/ic-to-top.svg">
+        </div>
+    </span>
+    <div class="container-proj">
+
+        <section id="header" class="flexbox">
+            <h1>UVISIO</h1>
+            <h4 class="year">2017</h4>
+            <p class="header-tx">UX/UI/Industrial Design<br/><br/>Every 6 people in the Netherlands might develop
+                skin cancer. UVISIO provides affordable device and sun protection recommendation service to make the change.<br/><br/><br/><br/>
+                Client: UVisio B.V.<br/>
+                Contact: yizhen@uvisio.com
+            </p>
+        </section>
+
+        <section class="header-image flexbox"></section>
+
+        <section class="design-object flexbox">
+            <video autoplay="autoplay" width="72%" height="auto" loop>
+                <source src="img/uv-reapply.mp4">
+            </video>
+            <h3>DESIGN OBJECT</h3>
+            <p>UVisio works closely with sunscreen companies to make sun protection actionable.
+                To achieve this, we use <a href="img/uv-domain.jpg" data-lightbox="domain" >many factors</a> to build a personalized
+                recommendation system.
+                <br/>Needs are ranked based on our survey conducted with 200+ people.</p>
+            <img id="uv-statistics"src="img/uv-statistics.jpg">
+        </section>
+
+        <section class="screens flexbox">
+            <img src="img/uv-screens.png" id="three-screen" width="80%"/>
+            <h3>PRINCIPLE</h3>
+            <p>Information should be visible only when necessary.<br/>
+                The state of safety should be most glanceable, so users can enjoy the sun.
+            </p>
+        </section>
+
+        <section class="switch-user">
+            <video autoplay="autoplay" width="auto" height="100%" loop>
+                <source src="img/uv-switch-user.mp4">
+            </video>
+            <h3>FAMILY USE</h3>
+            <p>Keep multiple profiles seperately helps mothers to take care of their children’s conditions.</p>
+        </section>
+
+        <section class="wires flexbox">
+            <video width="auto" height="60%" controls="controls">
+                <source src="img/wireframes.mp4">
+            </video>
+            <h3>ON-GOING</h3>
+            <p>Complete the whole journey</p>
+            <img src="img/uv-clip.jpg"/>
+        </section>
+    </div>
+</body>
+</html>

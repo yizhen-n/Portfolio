@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Yizhen Zhu</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ScrollMagic.js"></script>
+    <script src="js/debug.addIndicators.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/TimelineMax.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/animation.gsap.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+</head>
+<body onload="loadProject()">
+<span id="toggle-bar-uvisio" class="toggle-bar-proj">
+        <a href="index.html" class="home-btn proj-btn">
+            <img class="home-btn-icon" src="img/ic-home.svg">
+        </a>
+        <a href="proj-uvisio.html" class="proj-last-btn proj-btn">
+            <img class="proj-last-icon" src="img/ic-previous.svg">
+            <h4 class="vertical-tx vertical-tx-top">UVISIO</h4>
+        </a>
+        <a href="proj-dmf.html" class="proj-next-btn proj-btn">
+            <img class="proj-next-icon" src="img/ic-next.svg">
+            <h4 class="vertical-tx vertical-tx-down vertical-tx-down-cando">MDF REDESGIN</h4>
+        </a>
+        <div id="top-btn" class="proj-btn">
+            <img id="top-icon" src="img/ic-to-top.svg">
+        </div>
+    </span>
+<div class="container-proj" id="container-cando">
+
+    <section id="header" class="flexbox">
+        <h1>CANDO</h1>
+        <h4 class="year">2017</h4>
+        <p class="header-tx">UI Design<br/><br/>I love arranging,writing and decorating my paper notes. But this joy is missing in those software categorized as ‘Efficiency’.
+            Sense of delight is my startpoint of creating this todo-list design.<br/><br/><br/><br/>
+            CareerFoundry Student Project
+        </p>
+    </section>
+
+    <section class="header-image header-cando flexbox"></section>
+    <section class="todo-delight flexbox">
+        <div class="videos">
+            <video width="480px" height="auto" id="cd1" autoplay="autoplay" loop>
+                <source src="img/cd-done.mp4">
+            </video>
+            <h3>Delight</h3>
+            <p>Sense of achievement when a task is done.<br/>
+            Fine organization.</p>
+        </div>
+        <div class="videos">
+            <video width="480px" height="auto" id="cd2" autoplay="autoplay" loop>
+                <source src="img/cd-create.mp4">
+            </video>
+            <h3>Lightness</h3>
+            <p>Quick to add task & show what should be done.<br/>
+                Small desktop window size.<br/>
+                Bright and Delicate Visual.</p>
+        </div>
+        <div class="videos">
+            <video width="480px" height="auto" id="cd3" autoplay="autoplay" loop>
+                <source src="img/cd-focus.mp4">
+            </video>
+            <h3>Focus</h3>
+            <p>Peaceful mode to focus on the most important task.<br/>
+                Value time and efficiency.</p>
+        </div>
+    </section>
+    <section class="styleguide flexbox">
+        <img src="img/cd-styles.jpg" id="styleimg">
+    </section>
+
+</div>
+</body>
+</html>
